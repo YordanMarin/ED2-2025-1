@@ -10,7 +10,7 @@ namespace ejercicios.clases
     internal class ListaDobleAnalisis
     {
         private NodoDoble primero = null;
-        private NodoDoble ultimo =null;
+        private NodoDoble ultimo = null;
 
         public void insertar(string nom, byte ed)
         {
