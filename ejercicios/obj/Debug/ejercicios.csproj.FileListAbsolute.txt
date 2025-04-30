@@ -36,3 +36,5 @@ C:\Users\yor_d\OneDrive\Escritorio\ED\ED2-2025-1\ejercicios\obj\Debug\ejercicios
 C:\Users\yor_d\OneDrive\Escritorio\ED\ED2-2025-1\ejercicios\obj\Debug\ejercicios.csproj.CoreCompileInputs.cache
 C:\Users\yor_d\OneDrive\Escritorio\ED\ED2-2025-1\ejercicios\obj\Debug\ejercicios.exe
 C:\Users\yor_d\OneDrive\Escritorio\ED\ED2-2025-1\ejercicios\obj\Debug\ejercicios.pdb
+C:\Users\yor_d\OneDrive\Escritorio\ED\ED2-2025-1\ejercicios\obj\Debug\ejercicios.FrmPila.resources
+C:\Users\yor_d\OneDrive\Escritorio\ED\ED2-2025-1\ejercicios\obj\Debug\ejercicios.FrmPilaListaSimple.resources
