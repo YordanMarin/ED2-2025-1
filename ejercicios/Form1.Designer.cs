@@ -38,6 +38,7 @@
             this.listaEnlazadaDobleAnálisisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pilaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pilaYListaSimpleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,7 +78,8 @@
             this.listaEnlazadaDobleToolStripMenuItem,
             this.listaEnlazadaDobleAnálisisToolStripMenuItem,
             this.pilaToolStripMenuItem,
-            this.pilaYListaSimpleToolStripMenuItem});
+            this.pilaYListaSimpleToolStripMenuItem,
+            this.colaToolStripMenuItem});
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(143, 32);
             this.operacionesToolStripMenuItem.Text = "Operaciones";
@@ -124,6 +126,13 @@
             this.pilaYListaSimpleToolStripMenuItem.Text = "Pila y lista simple";
             this.pilaYListaSimpleToolStripMenuItem.Click += new System.EventHandler(this.pilaYListaSimpleToolStripMenuItem_Click);
             // 
+            // colaToolStripMenuItem
+            // 
+            this.colaToolStripMenuItem.Name = "colaToolStripMenuItem";
+            this.colaToolStripMenuItem.Size = new System.Drawing.Size(367, 32);
+            this.colaToolStripMenuItem.Text = "Cola";
+            this.colaToolStripMenuItem.Click += new System.EventHandler(this.colaToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -154,6 +163,7 @@
         private System.Windows.Forms.ToolStripMenuItem listaEnlazadaDobleAnálisisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pilaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pilaYListaSimpleToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem colaToolStripMenuItem;
     }
 }
 
