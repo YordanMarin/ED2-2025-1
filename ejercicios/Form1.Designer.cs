@@ -39,6 +39,7 @@
             this.pilaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pilaYListaSimpleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.albolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +80,8 @@
             this.listaEnlazadaDobleAnálisisToolStripMenuItem,
             this.pilaToolStripMenuItem,
             this.pilaYListaSimpleToolStripMenuItem,
-            this.colaToolStripMenuItem});
+            this.colaToolStripMenuItem,
+            this.albolToolStripMenuItem});
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(143, 32);
             this.operacionesToolStripMenuItem.Text = "Operaciones";
@@ -133,6 +135,13 @@
             this.colaToolStripMenuItem.Text = "Cola";
             this.colaToolStripMenuItem.Click += new System.EventHandler(this.colaToolStripMenuItem_Click);
             // 
+            // albolToolStripMenuItem
+            // 
+            this.albolToolStripMenuItem.Name = "albolToolStripMenuItem";
+            this.albolToolStripMenuItem.Size = new System.Drawing.Size(367, 32);
+            this.albolToolStripMenuItem.Text = "Albol Binario";
+            this.albolToolStripMenuItem.Click += new System.EventHandler(this.albolToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -164,6 +173,7 @@
         private System.Windows.Forms.ToolStripMenuItem pilaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pilaYListaSimpleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem colaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem albolToolStripMenuItem;
     }
 }
 
