@@ -41,6 +41,7 @@
             this.colaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.albolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.árbolBinarioBusquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.grafoMatrizAdyacenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,7 +84,8 @@
             this.pilaYListaSimpleToolStripMenuItem,
             this.colaToolStripMenuItem,
             this.albolToolStripMenuItem,
-            this.árbolBinarioBusquedaToolStripMenuItem});
+            this.árbolBinarioBusquedaToolStripMenuItem,
+            this.grafoMatrizAdyacenciaToolStripMenuItem});
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(143, 32);
             this.operacionesToolStripMenuItem.Text = "Operaciones";
@@ -151,6 +153,13 @@
             this.árbolBinarioBusquedaToolStripMenuItem.Text = "Árbol binario Busqueda";
             this.árbolBinarioBusquedaToolStripMenuItem.Click += new System.EventHandler(this.árbolBinarioBusquedaToolStripMenuItem_Click);
             // 
+            // grafoMatrizAdyacenciaToolStripMenuItem
+            // 
+            this.grafoMatrizAdyacenciaToolStripMenuItem.Name = "grafoMatrizAdyacenciaToolStripMenuItem";
+            this.grafoMatrizAdyacenciaToolStripMenuItem.Size = new System.Drawing.Size(367, 32);
+            this.grafoMatrizAdyacenciaToolStripMenuItem.Text = "Grafo matriz adyacencia";
+            this.grafoMatrizAdyacenciaToolStripMenuItem.Click += new System.EventHandler(this.grafoMatrizAdyacenciaToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -184,6 +193,7 @@
         private System.Windows.Forms.ToolStripMenuItem colaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem albolToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem árbolBinarioBusquedaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem grafoMatrizAdyacenciaToolStripMenuItem;
     }
 }
 

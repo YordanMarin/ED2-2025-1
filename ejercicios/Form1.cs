@@ -71,5 +71,10 @@ namespace ejercicios
             FrmArbolBinarioBusqueda fabb = new FrmArbolBinarioBusqueda();
             fabb.ShowDialog(this);
         }
+
+        private void grafoMatrizAdyacenciaToolStripMenuItem_Click(object sender, EventArgs e) {
+            FrmGrafoMatrizAdyacencia am = new FrmGrafoMatrizAdyacencia();
+            am.ShowDialog(this);
+        }
     }
 }
